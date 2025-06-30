@@ -2,6 +2,7 @@ package tgm.ac.at.eventplaner_spiritofhit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Controller;
 import org.thymeleaf.engine.IterationStatusVar;
 
 @SpringBootApplication
@@ -12,5 +13,4 @@ public class EventplanerSpiritOfHitApplication {
         System.out.println("peaches");
         System.out.println("penis pic piccccc gustav!!!!!");
     }
-
 }
