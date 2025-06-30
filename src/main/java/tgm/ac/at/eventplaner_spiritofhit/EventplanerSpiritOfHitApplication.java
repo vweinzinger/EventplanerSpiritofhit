@@ -10,7 +10,7 @@ public class EventplanerSpiritOfHitApplication {
     public static void main(String[] args) {
         SpringApplication.run(EventplanerSpiritOfHitApplication.class, args);
         System.out.println("peaches");
-        System.out.println("penis pic piccc gustav!!!!!");
+        System.out.println("penis pic piccccc gustav!!!!!");
     }
 
 }
