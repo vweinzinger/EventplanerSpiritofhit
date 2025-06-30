@@ -1,4 +1,5 @@
 CREATE TABLE IF NOT EXISTS firma (
+    id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     adresse TEXT,
     branche VARCHAR(100),
@@ -8,6 +9,7 @@ CREATE TABLE IF NOT EXISTS firma (
     einladungsstatus VARCHAR(50) CHECK (einladungsstatus IN ('AUSSTEHEND', 'ZUGESAGT', 'ABGELEHNT', 'BESTÄTIGT')),
     erstelltdatum TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 )
+
 CREATE TABLE IF NOT EXISTS veranstaltung (
     id SERIAL PRIMARY KEY,
     titel VARCHAR(255) NOT NULL,
