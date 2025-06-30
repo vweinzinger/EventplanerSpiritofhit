@@ -12,5 +12,6 @@ public class EventplanerSpiritOfHitApplication {
         SpringApplication.run(EventplanerSpiritOfHitApplication.class, args);
         System.out.println("peaches");
         System.out.println("penis pic piccccc gustav!!!!!");
+
     }
 }
